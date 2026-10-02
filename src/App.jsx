@@ -8,8 +8,7 @@ import './App.css'
 
 function App() {
   return (
-     <BrowserRouter basename="/CASTAWAYWebsite-2">
-
+    <BrowserRouter basename="/CASTAWAYWebsite-2">
       <Routes>
 
         <Route
@@ -28,7 +27,6 @@ function App() {
         />
 
       </Routes>
-
     </BrowserRouter>
   )
 }
