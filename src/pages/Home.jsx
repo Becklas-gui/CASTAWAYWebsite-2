@@ -51,19 +51,25 @@ function Home() {
         </button>
 
 
-        <button
-          type="button"
-          style={{
-            backgroundColor: 'gainsboro',
-            color: 'black',
-            margin: 40
-          }}
-          onClick={() => {
-            alert('Download da Demo')
-          }}
-        >
-          Baixe a Demo aqui
-        </button>
+       <a
+  href="/Castaway_Demo_ver latest.zip"
+  download="Castaway_Demo_ver latest.zip"
+  style={{
+    textDecoration: 'none',
+    display: 'inline-block',
+    margin: 40
+  }}
+>
+  <button
+    type="button"
+    style={{
+      backgroundColor: 'gainsboro',
+      color: 'black'
+    }}
+  >
+    Baixe a Demo aqui
+  </button>
+</a>
 
       </div>
     </>
