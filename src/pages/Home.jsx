@@ -52,8 +52,8 @@ function Home() {
 
 
        <a
-  href="/Castaway_Demo_ver%20latest.zip"
-  download="Castaway_Demo_ver_latest.zip"
+  href="https://fluffy-satoshi.itch.io/castaway-prototype-demo"
+  //download="Castaway_Demo_ver_latest.zip"
   style={{
     textDecoration: 'none',
     display: 'inline-block',
